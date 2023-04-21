@@ -405,3 +405,315 @@ Slack message will be sent out and response will have to be required to understa
 
 
 ## Code 301 - Intermediate Software Development
+
+# Notes so Far as of 21 apr 2023 
+Prework 301
+
+ 
+
+https://github.com/carlitos-1988/arrow-functions/pull/1
+
+•	A question within the context of today's lab assignment
+o	I understand that arrow functions seem easier to work with but what is the point of them if they just reduce code? The only reason I see to use them is to get window properties and context for use later on. Other than this I really do not see a point to them
+•	An observation about the lab assignment, or related 'Ah-hah!' moment
+o	One aha moment I had was with assignment was with the use of parenthesis with arrow functions. I was confused at first with how they would be used but luckily there were more examples to this.
+•	How long you spent working on this assignment
+o	Total time 1 hour.
+
+
+
+Readings: Introduction to React and Components
+1.	What is a “component”?
+1.	A component is a modular, replaceable and reusable piece of code as an interface that allows for code to have a set pattern of behaviors to be used across code.
+2.	What are the characteristics of a component?
+1.	They are reusable, replaceable, non-context specific, extensible, encapsulated, nd independent. Once real world non coding example would be the use of an uninterrupted power supply. The only thing one would have to know is that you need to feed it a certain amount of wall power and it will produce a certain amount of power for a certain amount of time. The actual time and support will vary by manufacturer and how they provide power will also depend on this. In either case all one would have to do to fix one would be to replace it as it will not harm other parts of your computer
+3.	What are the advantages of using component-based architecture?
+1.	It assists with deployment of end of life or improved code by changing only certain areas without  breaking the rest of the code. Modifies and reduces complexity of the system by understanding inputs and outputs to the system without complicating what is needed for the rest of the team. Components can be reused in a modular system that allows for portability.
+
+1.	What is “props” short for?
+1.	It stands for properties
+2.	How are props used in React?
+1.	In react they are used to pass data from one component to another
+3.	What is the flow of props?
+1.	The flow of props has 3 steps
+1.	Define the attribute and the value data
+2.	Pass it to child components using props
+3.	Render the pops data
+
+ 
+
+
+
+Portfolio prep:
+https://github.com/carlitos-1988/portfolio-prep
+
+Reading Notes Repo:
+https://github.com/carlitos-1988/reading-notes
+
+Links:
+Resume:
+https://docs.google.com/document/d/1mubefHUNvOdGcLiC4zwCOWUV6YcywH_5wAM_tpVb6CM/edit?usp=sharing
+LinkedIn:
+https://www.linkedin.com/in/juan-olmedo-5613784a/
+GitHub:
+https://github.com/carlitos-1988?tab=repositories
+behavioral questions:
+https://docs.google.com/document/d/1e0c4FNfDBCS5IxWiS8lgOmDPjwjktpO8VjwMlYp3UQ0/edit?usp=sharing
+Talk to your Network:
+•	who you met with
+I met with Mike Nguchie he is a computer engineer for an organization providing consulting services for closed government programs.
+•	how you are connected to them
+I met Mike through my fiancé one month ago. I called him earlier this evening and received some knowledge on what industry is doing and where it plans to go.
+•	what you learned about that person and their work
+I learned that there is allot of work to be done in the area of cloud development and adoption. Allot of organizations both commercial and government.
+•	and how you can help them.
+The way I can help is by learning all of the fundamental aspects of web programming and get a firm understanding of all concepts to be covered in this coding bootcamp. Along with this getting an AWS or Microsoft Azure certification will be key.
+
+Targeted Job Search:
+https://docs.google.com/spreadsheets/d/16HHDWPbF7-IIbyWB5aLxUc0jzhFnKNABthRiKo38JLM/edit?usp=sharing
+Professional Pitch:
+Need to create video: https://codefellows.github.io/common_curriculum/career_coaching/301/professional-pitch-draft
+Professional Companies:
+https://docs.google.com/document/d/1prqZGHWMXf7HS28nCPWPhFoMDogszHF3p_BXsbdTkqE/edit?usp=sharingrea
+1.	What is React?
+1.	A user Interface Library
+2.	Component Architecture
+3.	Data Flow in React
+4.	Component State
+2.	What is a component?
+1.	Components are independent usable parts of code where they can be injected where needed. With the DOM it would likely be an attribute for HTML rendering or some widget on a webpage
+3.	What is the dataflow of React?
+1.	The dataflow for react is unidirectional, meaning data from parents flow down to children and not the other way. Because these children will not be able to update data on the child level and data is only updated at the top level. This ensures one directional architecture which is easier to manage.
+4.	How do we make a React element a DOM element?
+1.	Using the following code:
+5.	function tick() {
+6.	const element = (
+7.	<div>
+8.	<h1>Hello, world!</h1>
+9.	<h2>It is {new Date().toLocaleTimeString()}.</h2>
+10.	</div>
+11.	);
+12.	root.render(element);}
+1.	Where root is a document.getElementByID and the DIV is everything that will be rendered
+13.	React is a User Interface ______.
+1.	That allows you to build applications through components and allows for manageable scalable applications to be built.
+14.	Which direction does data flow in React?
+1.	One direction parent to child only
+15.	Every component manages its own ____.
+1.	State
+
+Classes Example:
+https://replit.com/@carlitos-1988/ES6-Classes
+Who are you (name and history),
+•	Juan Olmedo
+•	Los Angeles CA
+•	Live in Seattle Washington Area
+•	Air Force 11 years
+•	Army 2 years
+•	Engaged and have 1 daughter
+
+what you do (job title),
+•	Northrop Grumman SW Analyst
+•	
+and what value you bring (your why/passion).
+•	Out of the box thinker
+•	Passion for learning
+•	Not easily dissuaded by difficult problems
+•	Enjoy collaborating and learning from others
+
+
+
+
+Retrospectives
+1.	What went well, that I might forget if I don’t write down?
+2.	What did I learn today?
+3.	What should I do differently next time?
+4.	What still puzzles me, or what do I need to learn more about?
+
+
+Reading State and Props
+1.	Based off the diagram, what happens first, the ‘render’ or the ‘componentDidMount’?
+1.	render
+2.	What is the very first thing to happen in the lifecycle of React?
+1.	Mounting the constructor
+3.	Put the following things in the order that they happen: componentDidMount, render, constructor, componentWillUnmount, React Updates
+1.	Render
+2.	Constructor
+3.	React updates
+4.	ComponentDidMount
+5.	ComponentWillunmount
+4.	What does componentDidMount do?
+1.	It initializes networks requests or initializes the DOM. This is the place to set up subscriptions using APIs.
+
+
+5.	What types of things can you pass in the props?
+1.	You can pass Strings, numbers, Booleans, arrays, objects and functions
+6.	What is the big difference between props and state?
+1.	State is managed by each component individually and props are passed from parent to child. Props can all be seen in the React developer tools
+7.	When do we re-render our application?
+1.	Function usage like setState() will cause a change in the application by informing the app to update as there has been a change in state.
+8.	What are some examples of things that we could store in state?
+1.	Some examples include user generated data such as input, changes in state for the application, and if checkboxes are selected or not.
+
+
+
+
+Networking: Generating Opportunities
+
+VetsinTech Front End Web Dev Cohort Sponsored by DraftKings
+5 Jun @ 5:00 PM - 29 Jun @ 7:00 PM PD $10.00
+
+https://vetsintech.co/event/vetsintech-front-end-web-dev-cohort-sponsored-by-draftkings-16/
+1 May @ 5:00 PM - 25 May @ 7:00 PM PDT
+
+VetsinTech Python Fundamentals for Data Science by Lockheed Martin!
+1 May @ 5:00 PM - 25 May @ 7:00 PM PDT $10.00
+https://vetsintech.co/event/vetsintech-front-end-web-dev-cohort-sponsored-by-draftkings-15/
+
+VetsinTech Security+ Bootcamp
+12 Jun @ 7:00 AM - 16 Jun @ 4:30 PM PDT $10.00
+https://vetsintech.co/event/vetsintech-security-bootcamp-9/
+(On-Line) Resume Reviews for Software Engineers and QA
+12 Apr 2023 @ 5:30 pm
+https://www.meetup.com/qadev-seattle/events/292772981
+
+Dev Hangout
+Tuesday, April 11, 2023 at 7:00 PM to
+https://www.meetup.com/pnw-dev-network/events/292689741
+
+
+1.	What is node.js?
+1.	Programming language that uses the V8 engine used in another chromium browsers. It allows for JavaScript code to be compiled directly to native machine code so that the computer can execute.
+2.	In your own words, what is Chrome’s V8 JavaScript Engine?
+1.	It allows for code to be complied and ran in the native computer rather than in the browser.
+3.	What does it mean that node is a JavaScript runtime?
+1.	Node is a program that can be used to execute JavaScript on the computer, in other words it is a JavaScript runtime.
+4.	What is npm?
+1.	It is the node package manager
+5.	What version of node are you running on your machine?
+1.	V19.7.0
+6.	What version of npm are you running on your machine?
+1.	9.5.0
+7.	What command would you type to install a library/package called ‘jshint’?
+1.	npm install -g jshint
+8.	What is node used for?
+1.	One of the biggest use cases is that it can be used to for server programming. Since it is single-threaded and event driven it only utilizes resources when there an event occurs.
+
+1.	What are the 6 reasons for pair programming?
+1.	Greater efficiency
+2.	Engage collaboration
+3.	Learning from fellow students
+4.	Social skills
+5.	Job interview readiness
+6.	Work environment readiness
+2.	In your experience, which of these reasons have you found most beneficial?
+1.	Learning from fellow students – I have found this beneficial for the reason that I get to see how other people think and how they tackle a problem. In my experience I have not see how many people tackle a complicated problem and seeing this has been beneficial
+3.	How does pair programming work?
+1.	It works by allowing two people discuss and idea and implement a solution. It allows for open and honest communication that is more beneficial that working in a silo developing your own code.
+
+
+
+1.	What does REST stand for?
+1.	representational state transfer
+2.	REST APIs are designed around a ____.
+1.	Service being rendered via client server model.
+3.	What is an identifier of a resource? Give an example.
+1.	Unique identifyers for a resource can look like the following
+1.	https://somewebsite.com/<api key>? City=<city>&state=<state>
+4.	What are the most common HTTP verbs?
+1.	GET
+2.	POST
+3.	PUT
+4.	PATCH
+5.	DELETE
+5.	What should the URIs be based on?
+1.	Uris should be comprised of nouns
+6.	Give an example of a good URI.
+1.	Good: /cars/types
+2.	Bad: /delete-cars
+7.	What does it mean to have a ‘chatty’ web API? Is this a good or a bad thing?
+1.	Being chatty is a bad thing because the API will either send to many requests or retrieve and send back too much data.
+8.	What status code does a successful GET request return?
+1.	200 - OK
+9.	What status code does an unsuccessful GET request return?
+1.	204 – NOT FOUND
+10.	What status code does a successful POST request return?
+1.	201 - CREATED
+11.	What status code does a successful DELETE request return?
+1.	204 – NO CONTENT
+
+
+
+
+Professional pitch video NOTES
+
+-	Who are you and what do you do ?
+o	I am a software engineer
+o	
+-	Why do they care?
+o	
+-	What do you want ?
+o	Why am I interviewing
+My name is Juan I’ve been working as a Software Development Analyst in the Aerospace sector for the last 4 years.
+Most recently I’ve worked on enterprise agreements where weve identified software used across the enterprise to be able to drive down cost of utilized software .
+One cool thing about this that our team was able to save over 13 million dollars per year on
+unused software for the systems engineering directorate
+I’ve also assisted with the development of features with commercial of the shelf software by gathering requirements, generating use cases, shadowing the
+development team and documenting the results of our implementation
+
+Right now in my job search I am looking to find a position that will help me
+expand on my software development skills I have learned at codefellows and in my current role. I want to make an impact on building scalable applications that
+
+allow for the users to really utilize the data that exists within organizations
+
+
+1.	What is functional programming?
+1.	It is a programming approach for building the structure and elements of computer programs. 
+2.	What is a pure function and how do we know if something is a pure function?
+1.	A function that returns the same result given the same argument. For example, a function that appends a string to everything passed on to it. 
+3.	What are the benefits of a pure function?
+1.	They are easier to tests
+2.	immutable
+4.	What is immutability?
+1.	The function is not able to change. The instance of that function will not be able to be changed and if different behaviors is needed a new instance would have to be instantiated. 
+5.	What is Referential transparency?
+1.	They are pure functions + immutable data, with these two the behavior of a function can be memorized. 
+
+1.	What is a module?
+1.	A module is a self-contained block of code that can be imported and used in another program. Sort of like packages in java. 
+2.	What does the word ‘require’ do?
+1.	It is used in Node to load and import external modules. 
+3.	How do we bring another module into the file the we are working in?
+1.	Use the require keyword with name and path
+4.	What do we have to do to make a module available?
+1.	Using either module.exports or export
+
+
+Reading
+Understanding the JavaScript Call Stack
+1.	What is a ‘call’?
+1.	This would be the call of a function
+2.	How many ‘calls’ can happen at once?
+1.	One call can happen at once in the cll stack
+3.	What does LIFO mean?
+1.	Last in First out
+4.	Draw an example of a call stack and the functions that would need to be invoked to generate that call stack.
+1.	 
+5.	What causes a Stack Overflow?
+1.	A function that calls itself over and over, a recursive function
+JavaScript error messages
+1.	What is a ‘reference error’?
+1.	An error where you try to use a variable that has not yet been declared
+2.	What is a ‘syntax error’?
+1.	Something that cannot be parsed in terms of syntax
+3.	What is a ‘range error’?
+1.	This happens when you try to reach an index of an element or an array that is not there
+4.	What is a ‘type error’?
+1.	This happens when you try to access a variable with the wrong type. One example would be to use an array function on an integer variable
+5.	What is a breakpoint?
+1.	This is used when debugging code and adding a debugger statement in the code so that it stops its execution at that location
+6.	What does the word ‘debugger’ do in your code?
+1.	Breaks the code at a particular line. 
+
+![image](https://user-images.githubusercontent.com/43771360/233610339-63bff740-a736-403c-9fa4-96423e641a49.png)
+
